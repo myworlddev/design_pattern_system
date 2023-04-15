@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@raferdev-tech/eslint-config/node": "*",
+    "@raferdev-tech/eslint-config": "*",
     "@raferdev-tech/ts_config": "*",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",

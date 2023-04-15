@@ -1,4 +1,4 @@
-name: Deploy Doc'Ss
+name: Deploy Doc's
 
 on:
   push:
