@@ -1,0 +1,2 @@
+import{A as t}from"./index-b09325dc.js";import"./index-f7f987d0.js";import"./index-be62b029.js";import"./iframe-01e48fd2.js";import"./index-963fd30b.js";const i={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/raferdev.png",alt:"Rafael Fernandes"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,c as WithFallback,m as __namedExportsOrder,i as default};
+//# sourceMappingURL=Avatar.stories-0c4abeb0.js.map
