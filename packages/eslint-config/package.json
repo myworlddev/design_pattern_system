@@ -1,7 +1,6 @@
 {
   "name": "@raferdev-tech/eslint-config",
-  "version": "2.1.0",
-  "private": false,
+  "version": "3.0.0",
   "description": "ESLint configuration used by Raferdev.",
   "license": "MIT",
   "repository": {

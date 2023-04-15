@@ -1,5 +1,16 @@
 # @raferdev-tech/react
 
+## 3.2.0
+
+### Minor Changes
+
+- MAJOR: ts-config file name and privacity value. MAJOR: eslint config will be published. MINOR: tokens and react package dependencies..
+
+### Patch Changes
+
+- Updated dependencies
+  - @raferdev-tech/tokens@2.2.0
+
 ## 3.1.0
 
 ### Minor Changes

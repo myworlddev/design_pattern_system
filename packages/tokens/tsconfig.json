@@ -1,4 +1,4 @@
 {
-  "extends": "@raferdev-tech/ts_config/base.json",
+  "extends": "@raferdev-tech/ts-config/base.json",
   "include": ["src"]
 }

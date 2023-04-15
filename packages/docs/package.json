@@ -11,12 +11,12 @@
     "build-storybook": "build-storybook"
   },
   "keywords": [],
-  "author": "",
+  "author": "@raferdev",
   "private": true,
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.3",
-    "@raferdev-tech/ts_config": "*",
+    "@raferdev-tech/ts-config": "*",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^7.0.5",
     "@storybook/addon-interactions": "^6.5.16",
