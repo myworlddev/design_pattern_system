@@ -1,5 +1,16 @@
 # @raferdev-tech/react
 
+## 2.1.0
+
+### Minor Changes
+
+- chore: change name of packages tree to work on the organization.
+
+### Patch Changes
+
+- Updated dependencies
+  - @raferdev-tech/tokens@1.2.0
+
 ## 2.0.1
 
 ### Patch Changes
