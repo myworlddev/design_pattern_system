@@ -29,7 +29,7 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
-    "@raferdev-tech/eslint_config": "*",
+    "@raferdev-tech/eslint-config/node": "*",
     "@raferdev-tech/react": "*",
     "@raferdev-tech/tokens": "*",
     "@storybook/addon-a11y": "^6.5.16",

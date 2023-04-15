@@ -1,4 +1,4 @@
-# @raferdev-tech/ts_config
+# @raferdev-tech/eslint-config/node
 
 ## 2.0.0
 

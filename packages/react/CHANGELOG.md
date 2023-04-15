@@ -1,5 +1,16 @@
 # @raferdev-tech/react
 
+## 3.0.0
+
+### Major Changes
+
+- feat: new custom eslint configuration.
+
+### Patch Changes
+
+- Updated dependencies
+  - @raferdev-tech/tokens@2.0.0
+
 ## 2.1.0
 
 ### Minor Changes

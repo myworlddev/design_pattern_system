@@ -1,5 +1,11 @@
 # @raferdev-tech/tokens
 
+## 2.0.0
+
+### Major Changes
+
+- feat: new custom eslint configuration.
+
 ## 1.2.0
 
 ### Minor Changes
