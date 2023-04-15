@@ -1,5 +1,5 @@
 {
-    "schemas":"https://turborepo.org/shema.json",
+    "schemas":"https://turborepo.org/schema.json",
     "pipeline": {
         "dev": {
             "cache":false

@@ -1,6 +1,6 @@
 {
   "name": "@raferdev-tech/tokens",
-  "version": "1.1.0",
+  "version": "2.2.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,11 +11,11 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "@raferdev",
+  "license": "MIT",
   "devDependencies": {
-    "@raferdev-tech/eslint_config": "*",
-    "@raferdev-tech/ts_config": "*",
+    "@raferdev-tech/eslint-config": "*",
+    "@raferdev-tech/ts-config": "*",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
