@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from "@raferdev_study/react";
+import { Avatar, AvatarProps } from "@raferdev-tech/react";
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

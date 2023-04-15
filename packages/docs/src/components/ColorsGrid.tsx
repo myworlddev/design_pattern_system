@@ -1,4 +1,4 @@
-import { colors } from '@raferdev_study/tokens';
+import { colors } from '@raferdev-tech/tokens';
 import {getContrast} from 'polished'
 
 export function ColorsGrid() {

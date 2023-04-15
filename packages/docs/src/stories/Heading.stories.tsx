@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from "@raferdev_study/react";
+import { Heading, HeadingProps } from "@raferdev-tech/react";
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

@@ -1,4 +1,4 @@
-# @raferdev_study/tokens
+# @raferdev-tech/tokens
 
 ## 1.1.0
 

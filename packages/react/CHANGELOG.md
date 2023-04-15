@@ -1,4 +1,4 @@
-# @raferdev_study/react
+# @raferdev-tech/react
 
 ## 2.0.1
 

@@ -1,5 +1,5 @@
 {
-  "name": "@raferdev_study/react",
+  "name": "@raferdev-tech/react",
   "version": "2.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -14,13 +14,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@raferdev_study/eslint_config": "*",
-    "@raferdev_study/ts_config": "*",
+    "@raferdev-tech/eslint_config": "*",
+    "@raferdev-tech/ts_config": "*",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@raferdev_study/tokens": "*",
+    "@raferdev-tech/tokens": "*",
     "@radix-ui/react-avatar": "^1.0.2",
     "@radix-ui/react-checkbox": "^1.0.3",
     "@stitches/react": "^1.2.8",

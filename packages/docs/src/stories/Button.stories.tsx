@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from "@raferdev_study/react";
+import { Button, ButtonProps } from "@raferdev-tech/react";
 import type { StoryObj, Meta } from '@storybook/react'
 import {ArrowRight} from 'phosphor-react'
 export default {

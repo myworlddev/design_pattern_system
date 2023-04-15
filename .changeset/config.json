@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@raferdev_study/docs"]
+  "ignore": ["@raferdev-tech/docs"]
 }
