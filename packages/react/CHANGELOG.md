@@ -1,5 +1,11 @@
 # @raferdev-tech/react
 
+## 3.3.0
+
+### Minor Changes
+
+- MINOR chore: change linting.
+
 ## 3.2.0
 
 ### Minor Changes

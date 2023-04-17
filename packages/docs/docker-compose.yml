@@ -1,0 +1,12 @@
+services:
+  storybook:
+    container_name: storybook-raferdev
+    environment:
+      - ENV=PRODUCTION
+    build: .
+    volumes:
+      - server-vol:/app/storybook-static
+
+volumes:
+  server-vol:
+    external: true
