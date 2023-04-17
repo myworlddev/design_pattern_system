@@ -5,8 +5,13 @@ services:
       - ENV=PRODUCTION
     build: .
     volumes:
-      - server-vol:/app/storybook-static
+      - server_ngnix_vol:/app/storybook-static
 
 volumes:
-  server-vol:
+  server_ngnix_vol:
     external: true
+
+networks: 
+  default: 
+    external: 
+      name: portifolio
