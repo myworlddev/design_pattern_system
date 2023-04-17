@@ -2,12 +2,15 @@ on:
   push:
     branches:
       - main
+
 name: Build and Deploy
 jobs:
   build:
     runs-on: self-hosted
     timeout-minutes: 20
     steps:
+      - name: Go to docs path
+        run: cd packages/docs/
       - name: Checkout
         uses: actions/checkout@v3
       - name: Clean
