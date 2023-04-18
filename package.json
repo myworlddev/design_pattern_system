@@ -1,4 +1,5 @@
 {
+  "name": "design_pattern_system",
   "private": true,
   "workspaces": [
     "packages/*"

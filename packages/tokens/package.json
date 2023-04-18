@@ -1,17 +1,25 @@
 {
   "name": "@raferdev-tech/tokens",
-  "version": "2.2.0",
-  "description": "",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "version": "2.3.0",
+  "description": "The standart metrics to great UI projects.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "url": "/raferdev-tech/design_pattern_system"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --external react",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch  --external react",
     "lint": "eslint src/**/*.ts* --fix"
   },
-  "keywords": [],
-  "author": "@raferdev",
+  "keywords": [
+    "ui-tokens",
+    "tokens",
+    "ui",
+    "design-patterns"
+  ],
+  "author": "raferdev",
   "license": "MIT",
   "devDependencies": {
     "@raferdev-tech/eslint-config": "*",

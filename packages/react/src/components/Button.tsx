@@ -1,89 +1,88 @@
-import { ComponentProps } from "@stitches/react";
-import { styled } from "../styles/index.js";
-import { ElementType} from 'react';
+import { ComponentProps } from '@stitches/react'
+import { styled } from '../styles/index.js'
+import { ElementType } from 'react'
 
+export const Button = styled('button', {
+  all: 'unset',
+  borderRadius: '$sm',
+  fontSize: '$sm',
+  fontWeight: '$medium',
+  fontFamily: '$default',
+  textAlign: 'center',
+  minWidth: 120,
+  boxSizing: 'border-box',
 
-export const Button = styled('button', { 
-    all:'unset',
-    borderRadius:'$sm',
-    fontSize:'$sm',
-    fontWeight:'$medium',
-    fontFamily:'$default',
-    textAlign:'center',
-    minWidth:120,
-    boxSizing:'border-box',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: '$2',
 
-    display:'flex',
-    alignItems:'center',
-    justifyContent:'center',
-    gap:'$2',
+  cursor: 'pointer',
+  padding: '0 $4',
+  '&:disabled': {
+    cursor: 'not-allowed',
+  },
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
+  },
 
-    cursor:'pointer',
-    padding:'0 $4',
-    '&:disabled':{
-        cursor:'not-allowed'
-    },
-    '&:focus':{
-        boxShadow:'0 0 0 2px $colors$gray100'
-    },
+  svg: {
+    width: '$4',
+    height: '$4',
+  },
 
-    svg:{
-        width:'$4',
-        height:'$4'
-    },
-
-    variants:{
-        variant: {
-            primary: {
-                color:'$white',
-                backgroundColor:'$ignite500',
-                '&:not(:disabled):hover':{
-                    backgroundColor:'$ignite300'
-                },
-                '&:disabled':{
-                    backgroundColor:'$gray200',
-                }
-            },
-            secondary:{
-                color:'$ignite300',
-                border:'2px solid $ignite500',
-                '&:not(:disabled):hover':{
-                    backgroundColor:'$ignite500',
-                    color:'$white'
-                },
-                '&:disabled':{
-                    backgroundColor:'$gray200',
-                    borderColor:'$gray200'
-                }
-            },
-            tertiary: {
-                color:'$gray100',
-                '&:not(:disabled):hover':{
-                    color:'$white'
-                },
-                '&:disabled':{
-                    color:'$gray600',                }
-            }
+  variants: {
+    variant: {
+      primary: {
+        color: '$white',
+        backgroundColor: '$ignite500',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$ignite300',
         },
-        size: {
-            sm:{
-                height: 38
-            },
-            md:{
-                height: 46
-            }
-        }
+        '&:disabled': {
+          backgroundColor: '$gray200',
+        },
+      },
+      secondary: {
+        color: '$ignite300',
+        border: '2px solid $ignite500',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$ignite500',
+          color: '$white',
+        },
+        '&:disabled': {
+          backgroundColor: '$gray200',
+          borderColor: '$gray200',
+        },
+      },
+      tertiary: {
+        color: '$gray100',
+        '&:not(:disabled):hover': {
+          color: '$white',
+        },
+        '&:disabled': {
+          color: '$gray600',
+        },
+      },
     },
+    size: {
+      sm: {
+        height: 38,
+      },
+      md: {
+        height: 46,
+      },
+    },
+  },
 
-    defaultVariants: {
-        variant:'primary',
-        size:'md'
-    }
-
- })
+  defaultVariants: {
+    variant: 'primary',
+    size: 'md',
+  },
+})
 
 export interface ButtonProps extends ComponentProps<typeof Button> {
-    as?: ElementType
+  as?: ElementType
 }
 
 Button.displayName = 'Button'

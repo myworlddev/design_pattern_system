@@ -1,0 +1,10 @@
+services:
+  storybook:
+    container_name: storybook-raferdev
+    image: raferdev/app:latest
+    volumes:
+      - server_ngnix_vol:/app/storybook-static
+
+volumes:
+  server_ngnix_vol:
+    external: true

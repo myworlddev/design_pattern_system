@@ -1,11 +1,12 @@
 {
   "name": "@raferdev-tech/eslint-config",
-  "version": "3.0.0",
-  "description": "ESLint configuration used by Raferdev.",
+  "version": "3.1.0",
+  "description": "Default eslint configuration to great projects.",
   "license": "MIT",
   "repository": {
     "url": "/raferdev-tech/design_pattern_system"
   },
+  "author": "raferdev",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",

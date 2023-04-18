@@ -1,5 +1,22 @@
 # @raferdev-tech/react
 
+## 3.4.0
+
+### Minor Changes
+
+- MINOR chore: change packages details, license. fix: change entrypoints.
+
+### Patch Changes
+
+- Updated dependencies
+  - @raferdev-tech/tokens@2.3.0
+
+## 3.3.0
+
+### Minor Changes
+
+- MINOR chore: change linting.
+
 ## 3.2.0
 
 ### Minor Changes
