@@ -34,9 +34,6 @@ jobs:
       - name: Build All
         run: npm run build
 
-      - name: debug
-        run: cd packages/docs/ && ls
-
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
