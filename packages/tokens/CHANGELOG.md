@@ -1,5 +1,11 @@
 # @raferdev-tech/tokens
 
+## 2.3.0
+
+### Minor Changes
+
+- MINOR chore: change packages details, license. fix: change entrypoints.
+
 ## 2.2.0
 
 ### Minor Changes

@@ -1,6 +1,16 @@
 {
   "name": "@raferdev-tech/ts-config",
-  "version": "3.0.0",
+  "description": "The default typescript config to great work.",
+  "keywords": [
+    "ts-pattern",
+    "ts-config",
+    "typescript",
+    "config"
+  ],
+  "repository": {
+    "url": "/raferdev-tech/design_pattern_system"
+  },
+  "version": "3.1.0",
   "license": "MIT",
-  "author": "@raferdev"
+  "author": "raferdev"
 }

@@ -1,17 +1,20 @@
 {
   "name": "@raferdev-tech/react",
-  "version": "3.3.0",
-  "description": "",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "version": "3.4.0",
+  "description": "Great components to React projects.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --dts",
     "dev": "tsup src/index.tsx --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
+  "repository": {
+    "url": "/raferdev-tech/design_pattern_system"
+  },
   "keywords": [],
-  "author": "@raferdev",
+  "author": "raferdev",
   "license": "MIT",
   "devDependencies": {
     "@raferdev-tech/eslint-config": "*",

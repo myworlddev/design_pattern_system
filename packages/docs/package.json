@@ -1,7 +1,7 @@
 {
   "name": "@raferdev-tech/docs",
   "version": "2.0.0",
-  "description": "",
+  "description": "Storybook of UI patterns",
   "main": "index.js",
   "scripts": {
     "deploy-storybook": "storybook-to-ghpages",
@@ -10,6 +10,9 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
+  "repository": {
+    "url": "/raferdev-tech/design_pattern_system"
+  },
   "author": "raferdev",
   "private": true,
   "license": "MIT",
