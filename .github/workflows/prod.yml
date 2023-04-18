@@ -3,10 +3,10 @@ name: Deploy Storybook
 on:
   push:
     branches:
-      - deploy
+      - prod
 
 jobs:
-  build:
+  deploy:
     runs-on: self-hosted
     timeout-minutes: 20
     steps:
