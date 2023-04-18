@@ -12,13 +12,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          ref: "prod"
       - name: Install All
         run: npm i
       - name: Install Local
         run: cd packages/docs && npm i
       - name: Build All
         run: npm run build
-      - name: Run Merge
-        run: git add . && git commit -m "" && git push
+      - name: Merge development -> prod
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: prod
+          github_token: ${{ secrets.GITHUB_TOKEN }}
