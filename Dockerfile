@@ -4,6 +4,6 @@ RUN apk add --no-cache libc6-compat
 
 WORKDIR /app
 
-COPY storybook-static ./build
+COPY ./packages/docs/storybook-static ./build
 
 CMD [ "cp","./build","./app" ]
