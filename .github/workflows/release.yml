@@ -1,9 +1,8 @@
-name: Release
+name: Publish New Releases
 
 on:
-  push:
-    branches:
-      - prod
+  release:
+    types: [published]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 

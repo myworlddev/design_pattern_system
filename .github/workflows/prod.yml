@@ -1,9 +1,11 @@
+name: Deploy Storybook
+
 on:
   push:
     branches:
-      - main
+      - deploy
 
-name: Build and Deploy
+name: Deploy
 jobs:
   build:
     runs-on: self-hosted

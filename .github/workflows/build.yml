@@ -1,0 +1,19 @@
+name: Build Storybook
+
+on:
+  push:
+    branches:
+      - deploy
+
+name: Build and Deploy
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build
+        run: cd packages/docs && npm run build
+      - name: Run
+        run: git merge prod && git push
