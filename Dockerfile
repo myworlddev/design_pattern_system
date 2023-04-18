@@ -10,7 +10,7 @@ RUN npm i
 
 RUN cd packages/docs/ && npm i
 
-RUN cd ../../ && npm build
+RUN npm build
 
 FROM node:16-alpine AS runner
 
