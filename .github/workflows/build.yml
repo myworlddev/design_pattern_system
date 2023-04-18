@@ -10,18 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Install All
-        run: npm i
-
-      - name: Install Local
-        run: cd packages/docs && npm i
-
-      - name: Build All
-        run: npm run build
-
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
 
@@ -34,8 +22,20 @@ jobs:
           username: ${{ secrets.DOCKER_U }}
           password: ${{ secrets.DOCKER }}
 
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install All
+        run: npm i
+
+      - name: Install Local
+        run: cd packages/docs && npm i
+
+      - name: Build All
+        run: npm run build
+
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: user/app:latest
+          tags: raferdev/app:latest
