@@ -1,5 +1,11 @@
 # @raferdev-tech/ts-config
 
+## 3.1.0
+
+### Minor Changes
+
+- MINOR chore: change packages details, license. fix: change entrypoints.
+
 ## 3.0.0
 
 ### Major Changes
