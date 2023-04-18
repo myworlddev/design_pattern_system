@@ -31,6 +31,9 @@ jobs:
       - name: Install Local
         run: cd packages/docs && npm i
 
+      - name: debug
+        run: ls
+
       - name: Build All
         run: npm run build
 
