@@ -16,6 +16,6 @@ FROM node:16-alpine AS runner
 
 WORKDIR /app
 
-COPY --from=builder /app/packages/docs/storybook-static ./build
+COPY --from=builder /app/packages/docs/ ./build
 
 CMD ["cp","-r", "./build/*","./app"]
